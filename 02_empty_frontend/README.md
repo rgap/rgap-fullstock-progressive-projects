@@ -1,30 +1,5 @@
-# Comandos ejecutados
+# Frontend
 
-## FRONTEND
-
-### Detalles de cambios
+## Descripción
 
 Se eliminaron archivos y carpetas que no son necesarios para tener un frontend vacío.
-
-### Comandos ejecutados
-
-```bash
-npm create vite@6.0.1 . -- --template react-ts
-
-npm install -D \
-@eslint/js@9.15.0 \
-@types/node@22.10.2 \
-@types/react@18.3.12 \
-@types/react-dom@18.3.1 \
-@vitejs/plugin-react@4.3.4 \
-eslint@9.15.0 \
-eslint-plugin-import@2.31.0 \
-eslint-plugin-react-hooks@5.0.0 \
-eslint-plugin-react-refresh@0.4.14 \
-globals@15.12.0 \
-typescript@5.6.2 \
-typescript-eslint@8.15.0 \
-vite@6.0.1
-
-npm run dev
-```
