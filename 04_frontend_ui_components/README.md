@@ -2,8 +2,17 @@
 
 ## Descripción
 
-Se creó la arquitectura de CSS global y variables (la carpeta `src/styles`).
-- Se configuraron los estilos globales, colores, elementos y utilidades CSS en `styles/index.css`.
-- Se actualizó `main.tsx` para importar `styles/index.css` en lugar del CSS predeterminado de Vite.
+Se integró un único componente base (`Button`) para demostrar la creación y uso de componentes reutilizables, sin agregar librerías enteras de componentes de golpe.
 
-No hubo instalación de nuevas librerías en este paso, solo copiado de la arquitectura CSS.
+- Se copió el componente Button y sus estilos (`styles.module.css`) a la carpeta `src/components/ui/button`.
+- Se importó y renderizó el componente dentro de `App.tsx` para probar su funcionamiento.
+
+## Comandos ejecutados
+
+### 1. Instalación de dependencias del componente
+
+```bash
+npm install clsx @radix-ui/react-slot
+```
+
+Solo slot porque no hay button en radix-ui
