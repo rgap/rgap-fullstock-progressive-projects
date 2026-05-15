@@ -1,0 +1,39 @@
+.root {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  background-color: var(--background);
+}
+
+.root__header {
+  position: sticky;
+  top: 0;
+  background-color: var(--background);
+  border-bottom: 1px solid var(--border);
+  z-index: 50;
+}
+
+.root__nav {
+  display: flex;
+  align-items: center;
+  height: var(--space-16);
+}
+
+.root__logo {
+  font-size: var(--font-size-5);
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--foreground);
+}
+
+.root__footer {
+  border-top: 1px solid var(--border);
+  padding: var(--space-6) 0;
+}
+
+.root__copyright {
+  display: block;
+  text-align: center;
+  font-size: var(--font-size-3-5);
+  color: var(--muted-foreground);
+}
